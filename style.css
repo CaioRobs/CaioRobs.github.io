@@ -1,3 +1,13 @@
 body {
     font-family: B612, sans-serif;
+    color: ##1f1e1f;
+    background-color: #dcd3d0;
+}
+
+strong {
+    color: #000;
+}
+
+.strong-title {
+    color: #000;
 }
