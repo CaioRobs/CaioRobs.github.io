@@ -43,4 +43,8 @@ footer p {
 #profile-img {
     width: 27em;
     border-radius: 13.5em;
+    border: 2px solid #03071e;
+    box-shadow: 5px 5px 10px black;
+    display: inline;
+    align-content: center;
 }
