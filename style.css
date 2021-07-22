@@ -4,6 +4,10 @@ body {
     background-color: #dcd3d0;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
 strong {
     color: #000;
 }
