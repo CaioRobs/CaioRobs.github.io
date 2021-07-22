@@ -4,14 +4,27 @@ body {
     background-color: #dcd3d0;
 }
 
+header {
+    background-color: #03071e;
+}
+
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 strong {
     color: #000;
 }
 
+footer {
+    background-color: #03071e;
+}
+
 .strong-title {
     color: #000;
+}
+
+#profile-img {
+    width: 27em;
+    border-radius: 13.5em;
 }
