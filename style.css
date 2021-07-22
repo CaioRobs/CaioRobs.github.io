@@ -2,10 +2,22 @@ body {
     font-family: B612, sans-serif;
     color: ##1f1e1f;
     background-color: #dcd3d0;
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+}
+
+#externals {
+    display: inline-block;
 }
 
 header {
     background-color: #03071e;
+    size: 100% 20em;
+    margin: 0;
+    padding-left: 5%;
 }
 
 h1 {
@@ -18,6 +30,10 @@ strong {
 
 footer {
     background-color: #03071e;
+}
+
+footer p {
+    margin-bottom: 0;
 }
 
 .strong-title {
