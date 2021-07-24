@@ -1,13 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    transition: all 0.2s ease;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: B612, sans-serif;
     font-size: 1em;
     color: #000;
-    background-image: linear-gradient(#e9d8a6, #ae2012);
+    background-image: linear-gradient(#e9d8a6, #097969);
 }
 
 header {
@@ -19,6 +24,7 @@ header {
 }
 
 footer {
+    margin-top: 50em;
     background-color: #03071e;
 }
 
@@ -36,6 +42,8 @@ footer {
 }
 
 .header-button {
+    color: aliceblue;
+    text-decoration: none;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -55,14 +63,12 @@ footer {
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    transition: box-shadow 0.3s;
 }
 
 .profile-img:hover {
     box-shadow: 2em 2em 3em black;
     width: 22em;
     border-radius: 11em;
-    top: -2em;
 }
 
 .page-title {
@@ -88,4 +94,8 @@ footer {
 
 .centered-text {
     text-align: center;
+}
+
+.hecto-link {
+    color: #000;
 }
