@@ -109,6 +109,7 @@ footer {
 .skills-list {
     list-style-type: none;
     margin: 0;
+    margin-top: 1em;
     padding: 0;
     text-indent: 0;
     line-height: 1.75em;
