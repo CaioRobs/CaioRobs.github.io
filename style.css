@@ -64,7 +64,7 @@ footer {
     width: 20em;
     border-radius: 10em;
     border: 2px solid #03071e;
-    box-shadow: 1em 1em 2em black;
+    box-shadow: 1em 1em 2em #03071e;
     display: block;
     margin: auto;
     margin-top: 2em;
@@ -72,7 +72,7 @@ footer {
 }
 
 .profile-img:hover {
-    box-shadow: 2em 2em 3em black;
+    box-shadow: 2em 2em 3em #03071e;
     width: 22em;
     border-radius: 11em;
 }
@@ -113,4 +113,19 @@ footer {
     padding: 0;
     text-indent: 0;
     line-height: 1.75em;
+}
+
+.top-btn {
+    float: right;
+    margin-top: 38em;
+    margin-right: 1em;
+    border: .23rem solid #03071e;
+    border-radius: 5em;
+    background-color: #ecdeb2;
+}
+
+.up-arrow {
+    font-size: 5em;
+    color: #03071e;
+    text-decoration: none;
 }
