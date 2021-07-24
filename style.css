@@ -12,7 +12,7 @@ body {
     font-family: B612, sans-serif;
     font-size: 1em;
     color: #000;
-    background-image: linear-gradient(#e9d8a6, #097969);
+    background-image: linear-gradient(#ecdeb2, #00A36C);
 }
 
 header {
@@ -20,12 +20,14 @@ header {
     padding-top: 2em;
     padding-bottom: 2em;
     width: 100%;
-
+    position: fixed;
+    top: 0;
 }
 
 footer {
     margin-top: 50em;
     background-color: #03071e;
+    color: #ecdeb2;
 }
 
 .internals {
@@ -42,14 +44,18 @@ footer {
 }
 
 .header-button {
-    color: aliceblue;
+    color: #ecdeb2;
     text-decoration: none;
     margin-left: 2em;
     margin-right: 2em;
 }
 
+.header-button:hover {
+    color: #e7c458;
+}
+
 .principal {
-    margin-top: 2em;
+    margin-top: 7em;
     margin-bottom: 2em;
     height: 28em;
 }
@@ -98,4 +104,12 @@ footer {
 
 .hecto-link {
     color: #000;
+}
+
+.skills-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    line-height: 1.75em;
 }
