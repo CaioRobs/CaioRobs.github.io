@@ -1,131 +1,165 @@
 * {
-    padding: 0;
-    margin: 0;
-    transition: all 0.2s ease;
+	padding: 0;
+	margin: 0;
+	transition: all 0.2s ease;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: B612, sans-serif;
-    font-size: 1em;
-    color: #000;
-    background-image: linear-gradient(#ecdeb2, #00A36C);
+	font-family: B612, sans-serif;
+	font-size: 1em;
+	color: #000;
+	background-image: linear-gradient(#ecdeb2, #00A36C);
 }
 
 header {
-    background-color: #03071e;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    width: 100%;
-    position: fixed;
-    top: 0;
+	background-color: #03071e;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
 footer {
-    margin-top: 50em;
-    background-color: #03071e;
-    color: #ecdeb2;
+	margin-top: 50em;
+	background-color: #03071e;
+	color: #ecdeb2;
 }
 
 .internals {
-    display: inline-block;
-    width: fit-content;
-    text-align: center;
+	display: inline-block;
+	width: fit-content;
+	text-align: center;
 }
 
 .externals {
 
-    width: fit-content;
-    text-align: center;
-    float: right;
+	width: fit-content;
+	text-align: center;
+	float: right;
 }
 
 .header-button {
-    color: #ecdeb2;
-    text-decoration: none;
-    margin-left: 2em;
-    margin-right: 2em;
+	color: #ecdeb2;
+	text-decoration: none;
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
 .header-button:hover {
-    color: #e7c458;
+	color: #e7c458;
 }
 
 .principal {
-    margin-top: 7em;
-    margin-bottom: 2em;
-    height: 28em;
+	margin-top: 7em;
+	margin-bottom: 2em;
+	height: 28em;
 }
 
 .profile-img {
-    width: 20em;
-    border-radius: 10em;
-    border: 2px solid #03071e;
-    box-shadow: 1em 1em 2em #03071e;
-    display: block;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+	width: 20em;
+	border-radius: 10em;
+	border: 2px solid #03071e;
+	box-shadow: 1em 1em 2em #03071e;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .profile-img:hover {
-    box-shadow: 2em 2em 3em #03071e;
-    width: 22em;
-    border-radius: 11em;
+	box-shadow: 2em 2em 3em #03071e;
+	width: 22em;
+	border-radius: 11em;
 }
 
 .page-title {
-    text-align: center;
-    font-size: 3em;
+	text-align: center;
+	font-size: 3em;
 }
 
 .section-title {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
 }
 
 .text-box {
-    width: 50%;
-    display: block;
-    margin: auto;
-    text-indent: 4em;
-    text-align: justify;
-    text-justify: auto;
-    margin-bottom: 5em;
+	width: 50%;
+	display: block;
+	margin: auto;
+	text-indent: 4em;
+	text-align: justify;
+	text-justify: auto;
+	margin-bottom: 5em;
 }
 
 .centered-text {
-    text-align: center;
+	text-align: center;
 }
 
 .hecto-link {
-    color: #000;
+	color: #000;
 }
 
 .skills-list {
-    list-style-type: none;
-    margin: 0;
-    margin-top: 1em;
-    padding: 0;
-    text-indent: 0;
-    line-height: 1.75em;
+	list-style-type: none;
+	margin: 0;
+	margin-top: 1em;
+	padding: 0;
+	text-indent: 0;
+	line-height: 1.75em;
+}
+
+.fire-section {
+	height: 200px;
+}
+
+.fire-table {
+	border-collapse: collapse;
+	border: 0;
+}
+
+.fire-section td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	text-align: center;
+	vertical-align: center;
+	font-size: 18px;
+	position: relative;
+}
+
+td.pixel {
+	width: 4px;
+	height: 4px;
+	border: 0;
+}
+
+.pixel-index {
+	font-size: 10px;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	color: #999;
 }
 
 .top-btn {
-    float: right;
-    margin-top: 38em;
-    margin-right: 1em;
-    border: .23rem solid #03071e;
-    border-radius: 5em;
-    background-color: #ecdeb2;
+	float: right;
+	margin-top: 38em;
+	margin-right: 1em;
+	border: .23rem solid #03071e;
+	border-radius: 5em;
+	background-color: #ecdeb2;
 }
 
 .up-arrow {
-    font-size: 5em;
-    color: #03071e;
-    text-decoration: none;
+	font-size: 5em;
+	color: #03071e;
+	text-decoration: none;
 }
