@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	transition: all 0.2s ease;
 }
 
 html {
@@ -12,7 +11,7 @@ body {
 	font-family: B612, sans-serif;
 	font-size: 1em;
 	color: #000;
-	background-image: linear-gradient(#ecdeb2, #00A36C);
+	background-image: linear-gradient(#ecdeb2, #009c68);
 }
 
 header {
@@ -25,9 +24,13 @@ header {
 }
 
 footer {
-	margin-top: 50em;
 	background-color: #03071e;
 	color: #ecdeb2;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	width: 100%;
+	position: relative;
+	max-height: fit-content;
 }
 
 .internals {
@@ -69,6 +72,7 @@ footer {
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	transition: all 0.3s linear;
 }
 
 .profile-img:hover {
@@ -115,10 +119,6 @@ footer {
 	line-height: 1.75em;
 }
 
-.fire-section {
-	height: 200px;
-}
-
 .fire-table {
 	border-collapse: collapse;
 	border: 0;
@@ -135,8 +135,8 @@ footer {
 }
 
 td.pixel {
-	width: 4px;
-	height: 4px;
+	width: 10px;
+	height: 7px;
 	border: 0;
 }
 
@@ -151,11 +151,12 @@ td.pixel {
 
 .top-btn {
 	float: right;
-	margin-top: 38em;
-	margin-right: 1em;
-	border: .23rem solid #03071e;
+	border: .3rem solid #03071e;
 	border-radius: 5em;
 	background-color: #ecdeb2;
+	position: relative;
+	top: -9em;
+	right: .4em;
 }
 
 .up-arrow {
