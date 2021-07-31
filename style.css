@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	transition: all 0.3s linear;
 }
 
 html {
@@ -72,7 +73,6 @@ footer {
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	transition: all 0.3s linear;
 }
 
 .profile-img:hover {
