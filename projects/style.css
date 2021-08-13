@@ -1,0 +1,45 @@
+body {
+  background-color: #1E1E1E;
+}
+
+h1 {
+  color: #A4A4A4;
+}
+
+br {
+  height: 1px;
+  width: 100%;
+}
+
+.color {
+  height: 3rem;
+  width: 3rem;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+}
+
+.color1 {
+  background-color: black;
+}
+
+.color2 {
+  background-color: #FF7777;
+}
+
+.color3 {
+  background-color: #FFCE96;
+}
+
+.color4 {
+  background-color: #F1F2DA;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+}
