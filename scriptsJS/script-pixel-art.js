@@ -50,11 +50,11 @@ function verifyInput() {
 	if (Number.isNaN(parseInt(input.value, 10))) {
 		return false;
 	}
-	if (n <= 5) {
+	if (n < 5) {
 		return 5;
 	}
-	if (n >= 50) {
-		return 50;
+	if (n > 17) {
+		return 17;
 	}
 	return n;
 }
