@@ -1,5 +1,6 @@
 main {
-	margin-top: 72px;
+	margin-top: 83px;
+	text-align: center;
 }
 
 br {
@@ -31,6 +32,11 @@ br {
 	background-color: #F1F2DA;
 }
 
+.board {
+	margin-top: 2rem;
+	line-height: 0%;
+}
+
 .pixel {
 	width: 40px;
 	height: 40px;
@@ -38,4 +44,5 @@ br {
 	display: inline-block;
 	background-color: white;
 	border: 1px solid black;
+	transition: none;
 }

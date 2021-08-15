@@ -27,6 +27,7 @@ function fillNewBoard(newBoard, n) {
 function createNewBoard() {
 	const newBoard = document.createElement('section');
 	newBoard.id = ('pixel-board');
+	newBoard.classList.add('board');
 	return newBoard;
 }
 
@@ -98,9 +99,9 @@ function randomizeColors() {
 }
 
 function load() {
-	const body = document.querySelector('body')
-	console.log(window.innerHeight)
-	body.style.height = window.innerHeight + 'px';
+	const initialSize = 5;
+	const body = document.querySelector('body');
+	body.style.height = window.innerHeight - 83 + 'px';
 
 	randomizeColors();
 	addListenerToColorPallete();
@@ -111,7 +112,7 @@ function load() {
 	const generateBtn = document.querySelector('#generate-board');
 	generateBtn.addEventListener('click', handleGenerateBtnClick);
 
-	produceBoard(5);
+	produceBoard(initialSize);
 }
 
 window.onload = load;
