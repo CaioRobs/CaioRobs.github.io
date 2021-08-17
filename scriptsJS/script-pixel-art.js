@@ -115,4 +115,4 @@ function load() {
 	produceBoard(initialSize);
 }
 
-window.onload = load;
+load();
