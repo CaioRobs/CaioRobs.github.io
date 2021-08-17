@@ -99,6 +99,9 @@ function moveTaskDown() {
 }
 
 function load() {
+	const body = document.querySelector('body');
+	body.style.height = window.innerHeight - 83 + 'px';
+
 	addOldTasks();
 	addTaskBtn.addEventListener('click', handleAddTaskBtn);
 	deleteSelectedTaskBtn.addEventListener('click', handleDeleteSelectedTaskBtn);

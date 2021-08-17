@@ -15,6 +15,11 @@ body {
 	background-image: linear-gradient(#ecdeb2, #009c68);
 }
 
+main {
+	margin-top: 83px;
+	text-align: center;
+}
+
 header {
 	background-color: #03071e;
 	padding-top: 2em;
@@ -41,7 +46,6 @@ footer {
 }
 
 .externals {
-
 	width: fit-content;
 	text-align: center;
 	float: right;
@@ -59,7 +63,7 @@ footer {
 }
 
 .principal {
-	margin-top: 7em;
+	margin-top: 5em;
 	margin-bottom: 2em;
 	height: 28em;
 }
@@ -82,6 +86,7 @@ footer {
 }
 
 .page-title {
+	margin-top: 2em;
 	text-align: center;
 	font-size: 3em;
 }

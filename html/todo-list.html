@@ -35,23 +35,29 @@
 		</div>
 	</header>
 	<main>
-		<div id="header">
-			<h1 class="title">Minha Lista de Tarefas</h1>
-			<h2 id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</h2>
-		</div>
-		<input type="text" id="texto-tarefa">
-		<button id="criar-tarefa">Adicionar Tarefa</button>
-		<div>
-			<ol id="lista-tarefas"></ol>
-		</div>
-		<div id="move-buttons">
-			<button id="mover-cima">Mover para cima</button>
-			<button id="mover-baixo">Mover para baixo</button>
-		</div>
-		<button id="remover-selecionado">Remover tarefa selecionada</button>
-		<button id="apaga-tudo">Apagar todas as tarefas</button>
-		<button id="remover-finalizados">Remover tarefas finalizadas</button>
-		<button id="salvar-tarefas">Salvar tarefas</button>
+		<section class="title-box box">
+			<h1 class="page-title">Minha Lista de Tarefas</h1>
+			<h2 id="funcionamento" class="section-title">Clique duas vezes em um item para marcá-lo como completo</h2>
+		</section>
+		<section class="new-area box">
+			<input type="text" id="texto-tarefa" placeholder="Nova tarefa">
+			<button id="criar-tarefa" class="btn">Adicionar Tarefa</button>
+		</section>
+		<section class="list-area box">
+			<section class="list">
+				<ol id="lista-tarefas"></ol>
+			</section>
+			<section class="move-buttons">
+				<button id="mover-cima" class="btn up">Mover para cima</button>
+				<button id="mover-baixo" class="btn down">Mover para baixo</button>
+			</section>
+		</section>
+		<section class="task-buttons box">
+			<button id="remover-selecionado" class="btn">Remover tarefa selecionada</button>
+			<button id="remover-finalizados" class="btn">Remover tarefas finalizadas</button>
+			<button id="salvar-tarefas" class="btn">Salvar tarefas</button>
+			<button id="apaga-tudo" class="btn">Apagar todas as tarefas</button>
+		</section>
 	</main>
 
 </body>

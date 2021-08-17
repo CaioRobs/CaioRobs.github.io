@@ -1,10 +1,101 @@
 main {
-	margin-top: 83px;
+	padding-top: 1rem;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+ol {
+	margin-left: auto;
+	width: auto;
+	list-style: none;
+}
+
+.title-box {
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 100%;
+
+}
+
+.page-title {
+	margin: 0 0 .5rem;
+}
+
+.section-title {
+	margin: 0.5rem 0 0;
+}
+
+.new-area {
+	margin: 1rem auto;
+	border: .2rem solid #03071e;
+	border-radius: 5rem;
+	padding: 1rem 10rem;
+}
+
+.list-area {
+	padding: 1rem 10rem;
+	border: .2rem solid #03071e;
+	border-radius: 5rem;
+}
+
+.list {
+	width: 45%;
+	margin: auto;
+}
+
+.move-buttons {
+	margin-top: 1rem;
+}
+
+.task-buttons {
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+.btn {
+	border: .15rem solid #03071e;
+	font-family: 'B612';
+	font-weight: bold;
+	border-radius: 5em;
+	background-color: #03071e;
+	color: #ecdeb2;
+	width: 30%;
+	height: 2rem;
+	transition-duration: 0.2s;
+}
+
+.btn:hover {
+	color: #e7c458;
+	box-shadow: .25rem .25rem .5rem #03071e;
+}
+
+.task-buttons .btn {
+	width: 24%;
+}
+
+.box {
+	border: .2rem solid #03071e;
+	border-radius: 3rem;
+	box-shadow: .5rem .5rem 1rem #03071e;
+	background-color: #ecdeb2;
+	color: #03071e;
+}
+
+.task {
+	margin: 1rem 0;
+	height: fit-content;
+	vertical-align: middle;
+	transition-duration: 0.15s;
 }
 
 .selected {
-	background-color: grey;
+	border-radius: 5rem;
+	box-shadow: .5rem .5rem 1rem #03071e;
+	background-color: #03071e;
+	color: #e7c458;
 }
 
 .completed {
