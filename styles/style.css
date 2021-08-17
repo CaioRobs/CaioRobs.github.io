@@ -27,6 +27,16 @@ header {
 	width: 100%;
 	position: fixed;
 	top: 0;
+	z-index: 2;
+}
+
+section {
+	padding: 2em 0;
+	margin: auto;
+}
+
+ul {
+	text-align: center;
 }
 
 footer {
@@ -63,9 +73,7 @@ footer {
 }
 
 .principal {
-	margin-top: 5em;
-	margin-bottom: 2em;
-	height: 28em;
+	padding-top: 2em;
 }
 
 .profile-img {
@@ -75,36 +83,33 @@ footer {
 	box-shadow: 1em 1em 2em #03071e;
 	display: block;
 	margin: auto;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 .profile-img:hover {
 	box-shadow: 2em 2em 3em #03071e;
-	width: 22em;
+	transform: scale(1.05);
 	border-radius: 11em;
+	z-index: 1;
 }
 
 .page-title {
-	margin-top: 2em;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
+	padding-bottom: .5em;
 }
 
 .section-title {
 	text-align: center;
-	margin-top: 1em;
-	margin-bottom: 1.5em;
+	padding-bottom: 1em;
 }
 
 .text-box {
-	width: 50%;
+	width: 55%;
 	display: block;
 	margin: auto;
 	text-indent: 4em;
 	text-align: justify;
-	text-justify: auto;
-	margin-bottom: 5em;
+	text-justify: distribute;
 }
 
 .centered-text {
@@ -117,13 +122,11 @@ footer {
 
 .skills-list {
 	list-style-type: none;
-	margin: 0;
-	margin-top: 1em;
-	padding: 0;
 	text-indent: 0;
 	line-height: 1.75em;
 }
 
+/* 
 .fire-table {
 	border-collapse: collapse;
 	border: 0;
@@ -152,15 +155,39 @@ td.pixel {
 	top: 2px;
 	right: 2px;
 	color: #999;
+} */
+
+.btns-box {
+	width: 55%;
+	margin: 1em auto;
+}
+
+.btn {
+	border: .2rem solid #03071e;
+	border-radius: 5em;
+	box-shadow: .5rem .5rem 1rem #03071e;
+	background-color: #ecdeb2;
+	transition-duration: 0.1s;
+	font-family: 'B612';
+}
+
+.btn:hover {
+	cursor: pointer;
+	transform: scale(1.12);
+	color: #000;
+}
+
+.project-btn {
+	font-size: x-large;
+	height: 3rem;
+	width: 20%;
+	margin: 0 2% 1em;
 }
 
 .top-btn {
 	float: right;
-	border: .3rem solid #03071e;
-	border-radius: 5em;
-	background-color: #ecdeb2;
 	position: relative;
-	top: -9em;
+	top: -8.2em;
 	right: .4em;
 }
 
@@ -168,4 +195,13 @@ td.pixel {
 	font-size: 5em;
 	color: #03071e;
 	text-decoration: none;
+}
+
+.box {
+	border: .2rem solid #03071e;
+	border-radius: 3rem;
+	box-shadow: .5rem .5rem 1rem #03071e;
+	background-color: #ecdeb2;
+	color: #03071e;
+	padding: 2rem 0;
 }

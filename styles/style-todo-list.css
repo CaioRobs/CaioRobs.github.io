@@ -1,7 +1,5 @@
 main {
-	padding-top: 1rem;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding: 1rem 25% 0;
 }
 
 ol {
@@ -14,18 +12,15 @@ ol {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
 	width: 100%;
-
 }
 
 .page-title {
-	margin: 0 0 .5rem;
+	padding: 0 0 .5rem
 }
 
 .section-title {
-	margin: 0.5rem 0 0;
+	padding: .5rem 12rem 0;
 }
 
 .new-area {
@@ -44,14 +39,15 @@ ol {
 .list {
 	width: 45%;
 	margin: auto;
+	padding: 1.2rem 0;
 }
 
 .move-buttons {
-	margin-top: 1rem;
+	padding: 1.2em 0;
 }
 
 .task-buttons {
-	margin-top: 1rem;
+	margin: 2rem auto;
 	padding: 1rem;
 }
 
@@ -65,30 +61,32 @@ ol {
 	width: 30%;
 	height: 2rem;
 	transition-duration: 0.2s;
+	box-shadow: none
 }
 
 .btn:hover {
 	color: #e7c458;
 	box-shadow: .25rem .25rem .5rem #03071e;
+	transform: none;
 }
 
 .task-buttons .btn {
 	width: 24%;
 }
 
-.box {
-	border: .2rem solid #03071e;
-	border-radius: 3rem;
-	box-shadow: .5rem .5rem 1rem #03071e;
-	background-color: #ecdeb2;
-	color: #03071e;
-}
-
 .task {
-	margin: 1rem 0;
+	margin: 1.2rem 0;
 	height: fit-content;
 	vertical-align: middle;
 	transition-duration: 0.15s;
+}
+
+.task:first-of-type {
+	margin-top: 0;
+}
+
+.task:last-of-type {
+	margin-bottom: 0;
 }
 
 .selected {
