@@ -1,6 +1,5 @@
 main {
-	margin-top: 83px;
-	text-align: center;
+	padding: 1rem 25% 0;
 }
 
 br {
@@ -14,6 +13,7 @@ br {
 	display: inline-block;
 	border: 1px solid black;
 	border-radius: 1.5rem;
+	transition-duration: 0.1s;
 }
 
 .color1 {
@@ -32,17 +32,31 @@ br {
 	background-color: #F1F2DA;
 }
 
+.box {
+	width: fit-content;
+	margin: auto;
+	padding: 2rem;
+}
+
 .board {
+	box-shadow: 1rem 1rem 1rem #03071e;
 	margin-top: 2rem;
+	padding: 0 0;
+	width: fit-content;
 	line-height: 0%;
 }
 
 .pixel {
 	width: 40px;
 	height: 40px;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	display: inline-block;
 	background-color: white;
 	border: 1px solid black;
 	transition: none;
+}
+
+.selected {
+	transform: scale(1.15);
 }

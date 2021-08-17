@@ -1,3 +1,6 @@
+const minSize = 3;
+const maxSize = 13;
+
 function handlePixelClick(event) {
 	const pixel = event.target;
 	const selectedColorInPallette = document.querySelector('.selected');
@@ -50,11 +53,11 @@ function verifyInput() {
 	if (Number.isNaN(parseInt(input.value, 10))) {
 		return false;
 	}
-	if (n < 5) {
-		return 5;
+	if (n < minSize) {
+		return minSize;
 	}
-	if (n > 17) {
-		return 17;
+	if (n > maxSize) {
+		return maxSize;
 	}
 	return n;
 }
@@ -115,4 +118,4 @@ function load() {
 	produceBoard(initialSize);
 }
 
-window.onload = load;
+load();
