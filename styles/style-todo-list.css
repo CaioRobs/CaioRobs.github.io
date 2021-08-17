@@ -1,0 +1,12 @@
+main {
+	margin-top: 83px;
+	text-align: center;
+}
+
+.selected {
+	background-color: grey;
+}
+
+.completed {
+	text-decoration: line-through;
+}
