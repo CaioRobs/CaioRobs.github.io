@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	transition: all 0.3s linear;
 }
 
 html {
@@ -10,7 +9,7 @@ html {
 
 body {
 	font-family: B612, sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 	color: #000;
 	background-image: linear-gradient(#ecdeb2, #009c68);
 }
@@ -22,8 +21,7 @@ main {
 
 header {
 	background-color: #03071e;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding: 2rem 0;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -31,7 +29,7 @@ header {
 }
 
 section {
-	padding: 2em 0;
+	padding: 2rem 0;
 	margin: auto;
 }
 
@@ -42,8 +40,8 @@ ul {
 footer {
 	background-color: #03071e;
 	color: #ecdeb2;
-	padding-top: 1em;
-	padding-bottom: 2em;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 	width: 100%;
 	position: relative;
 	max-height: fit-content;
@@ -64,8 +62,9 @@ footer {
 .header-button {
 	color: #ecdeb2;
 	text-decoration: none;
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	transition: all 0.15s ease-out;
 }
 
 .header-button:hover {
@@ -73,41 +72,41 @@ footer {
 }
 
 .principal {
-	padding-top: 2em;
+	padding-top: 2rem;
 }
 
 .profile-img {
-	width: 20em;
-	border-radius: 10em;
+	width: 20rem;
+	border-radius: 10rem;
 	border: 2px solid #03071e;
-	box-shadow: 1em 1em 2em #03071e;
+	box-shadow: 1rem 1rem 2rem #03071e;
 	display: block;
 	margin: auto;
+	transition: all 0.15s ease-out;
 }
 
 .profile-img:hover {
-	box-shadow: 2em 2em 3em #03071e;
+	box-shadow: 2rem 2rem 3erm #03071e;
 	transform: scale(1.05);
-	border-radius: 11em;
 	z-index: 1;
 }
 
 .page-title {
 	text-align: center;
-	font-size: 2em;
-	padding-bottom: .5em;
+	font-size: 2rem;
+	padding-bottom: .5rem;
 }
 
 .section-title {
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: 1rem;
 }
 
 .text-box {
 	width: 55%;
 	display: block;
 	margin: auto;
-	text-indent: 4em;
+	text-indent: 4rem;
 	text-align: justify;
 	text-justify: distribute;
 }
@@ -123,7 +122,7 @@ footer {
 .skills-list {
 	list-style-type: none;
 	text-indent: 0;
-	line-height: 1.75em;
+	line-height: 1.75rem;
 }
 
 /* 
@@ -159,15 +158,15 @@ td.pixel {
 
 .btns-box {
 	width: 55%;
-	margin: 1em auto;
+	margin: 1rem auto;
 }
 
 .btn {
 	border: .2rem solid #03071e;
-	border-radius: 5em;
+	border-radius: 5rem;
 	box-shadow: .5rem .5rem 1rem #03071e;
 	background-color: #ecdeb2;
-	transition-duration: 0.1s;
+	transition: all 0.15s ease-out;
 	font-family: 'B612';
 }
 
@@ -181,18 +180,18 @@ td.pixel {
 	font-size: x-large;
 	height: 3rem;
 	width: 20%;
-	margin: 0 2% 1em;
+	margin: 0 2% 1rem;
 }
 
 .top-btn {
 	float: right;
 	position: relative;
-	top: -8.2em;
-	right: .4em;
+	top: -8.2rem;
+	right: .4rem;
 }
 
 .up-arrow {
-	font-size: 5em;
+	font-size: 5rem;
 	color: #03071e;
 	text-decoration: none;
 }
