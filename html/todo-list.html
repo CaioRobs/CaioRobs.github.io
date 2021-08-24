@@ -10,30 +10,35 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 		rel="stylesheet" />
-	<link rel="stylesheet" href="/styles/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="/styles/style.css" />
 	<link rel="stylesheet" href="/styles/style-todo-list.css">
 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+	</script>
 	<script src="/scriptsJS/script-todo-list.js" defer></script>
 
 	<title>To Do List</title>
 </head>
 
 <body>
-	<header>
-		<div>
-			<div class="internals">
-				<a class="header-button internal-button" href="/html/index.html#aboutme">SOBRE MIM</a>
-				<a class="header-button internal-button" href="/html/index.html#education">EDUCAÇÃO</a>
-				<a class="header-button internal-button" href="/html/index.html#abilities">HABILIDADES</a>
-				<a class="header-button internal-button" href="/html/index.html#projects">PROJETOS</a>
-			</div>
-			<div class="externals">
-				<a class="header-button external-button" href="https://github.com/CaioRobs" target="_blank">GITHUB</a>
-				<a class="header-button external-button" href="https://www.linkedin.com/in/caiorvieira/"
-					target="_blank">LINKEDIN</a>
-			</div>
-		</div>
+	<header class="container-fluid">
+		<nav id="internal-links" class="internals">
+			<a class="header-button" href="../index.html#aboutme">SOBRE MIM</a>
+			<a class="header-button" href="../index.html#education">EDUCAÇÃO</a>
+			<a class="header-button" href="../index.html#abilities">HABILIDADES</a>
+			<a class="header-button" href="../index.html#projects">PROJETOS</a>
+		</nav>
+		<nav id="external-links" class="externals">
+			<a class="header-button" href="https://github.com/CaioRobs" target="_blank"><i class="bi bi-github"></i></a>
+			<a class="header-button" href="https://www.linkedin.com/in/caiorvieira/" target="_blank"><i
+					class="bi bi-linkedin"></i></a>
+		</nav>
 	</header>
+
 	<main>
 		<section class="title-box box">
 			<h1 class="page-title">Minha Lista de Tarefas</h1>
